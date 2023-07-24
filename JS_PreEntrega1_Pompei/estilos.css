@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4rem;
+    color: black;
+}
+h2{
+    font-size: 3rem;
+    color: blueviolet;
+}
+h3{
+    font-size: 3rem;
+    color: firebrick;
+}
+p{
+    font-size: 2rem;
+}
+.header, .footer{    
+    background-color: antiquewhite;
+}
+.header-info{
+    padding: 2rem;
+}
+
+.main{            
+    text-align: center;
+    background-color: black;
+}
+.main-descripcion{
+    color: antiquewhite;
+    padding: 1rem 5rem;
+}
+.main-Carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    color:cornflowerblue;
+}
+.main-Carrito h3 {
+    padding-bottom: 1rem;
+}
+.main-Carrito img {
+    width: 150px;
+}
+.iconoCarrito{
+    background-color: gray;
+    border-radius: 30px;
+
+} 
+
+.footer-detalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.footer-listas{
+    justify-content: left;
+}
+hr{
+    height: 1rem;
+    background-color: red;
+}

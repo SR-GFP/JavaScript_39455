@@ -1,0 +1,90 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+}
+
+
+
+
+/*VENTANA EMERGENTE LOG IN */ 
+.ventana__emergente__bloqueada{
+    display: none;
+}
+.ventana__emergente__desbloqueada{
+    display: block;
+}
+
+.contenedor__mensaje{
+    text-align: center;
+    display: none;    
+    z-index: 2;
+    background-color: rgba(250, 235, 215, 0.381);
+    
+}
+.contenedor__form{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    float: left;
+}
+.btn-secondary{
+    float: right;
+}
+.Contenedor__botones__form{
+    justify-content: space-evenly;    
+}
+.bi-info-circle{
+    font-size: 2rem;
+}
+
+/* vista del contenedor Home */
+.contenedor__home{
+    background-color: aqua;
+    height: 100%;
+}
+/* vista del contenedor Administrador */
+.contenedor__administrador{
+    background-color: whitesmoke;    
+    padding: 1rem;
+}
+.col-sm-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.columna__formulario{        
+    background-color: whitesmoke;
+}
+/* vista del contenedor Carrito */
+.contenedor__carrito{
+    background-color: red;
+    height: 100%;
+}
+
+
+/*para hacer que el icono menu este en el medio en dispositivos pequeños */ 
+.navbar .container-fluid {
+    justify-content: center;
+}
+
+.col-form-label{
+    color: whitesmoke;
+}
+
+.btn-primary{
+    box-shadow:inset;
+}
+
+.bi-gear, .bi-people{
+    font-size: 3rem;
+    color: black;
+}
+
+.collapse, .navbar-collapse{
+    justify-content: space-between;
+}

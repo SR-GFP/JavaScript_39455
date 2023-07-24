@@ -1,0 +1,39 @@
+.img{
+    max-height: 130px;
+    min-height: 50px;
+}
+
+.header{
+    background-image: url("./media/guitarra.png");
+    background-size: cover;   
+}
+.navbar{
+    box-shadow: 2px 2px 5px #ddd;
+    opacity: 0.8;
+}
+
+.background-overlay{
+    background: rgba(48, 51, 107, .5);
+}
+h1{
+    color: red;
+    text-shadow: #100e0ec4 -6px -3px 2px;
+}
+
+.main{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    padding: 5px;
+    margin: 5px;
+}
+
+.ramonesNegra{
+    max-height: 197px;
+}
+.card-body-especial{
+    padding-top: 5px;;
+}
